@@ -11,7 +11,7 @@ body{
    color:orange;
 
     }
-    section{
+    .flexibl_container{
 
       
         display: flex;
@@ -22,9 +22,10 @@ body{
     
     
     .first_part{
+        
         padding-left:2% ;
-        width:50%
-
+        width:50%;
+        
     }
     .first_part image{
         
@@ -47,13 +48,50 @@ body{
 
     .Dream_Big{
          background-image:url(images/dream-bg.png);
+         
          background-repeat:no-repeat;
-        background-position-x: right;
+         background-position-x: right;
     }
    
     .left_e_pic2{
    padding-left:20px;
-
+   
     }
      
-   
+ 
+    .yellow_color{
+        color:rgb(255, 208, 0);
+        text-shadow: 2px 2px black;
+    
+}
+.experienve-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 10px;
+    
+}
+
+.experience-area{
+    background-image:url(images/exp-bg.png);
+    
+    background-repeat:no-repeat;
+    background-position-x: left;
+}
+#boro{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+#choto{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1;
+
+}
+footer p{
+   text-align: center;
+}
